@@ -60,7 +60,7 @@ mousetrap:mousetrap
 mquandalle:jquery-textcomplete
 mquandalle:jquery-ui-drag-drop-sort
 mquandalle:mousetrap-bindglobal
-peerlibrary:blaze-components@=0.15.1
+peerlibrary:blaze-components
 templates:tabs
 verron:autosize
 wekan-simple-json-routes
@@ -75,9 +75,8 @@ dynamic-import@0.7.0
 accounts-password@2.0.0
 wekan-cfs-gridfs
 rzymek:fullcalendar
-momentjs:moment@2.22.2
 browser-policy-framing@1.1.0
-mquandalle:moment
+wekan-mquandalle-moment
 msavin:usercache
 # Keep stylus in 1.1.0, because building v2 takes extra 52 minutes.
 coagmano:stylus@1.1.0!
@@ -147,3 +146,4 @@ meteortesting:mocha
 wekan-kenton-accounts-sandstorm@0.7.0!
 communitypackages:fast-render
 jquery
+momentjs:moment
