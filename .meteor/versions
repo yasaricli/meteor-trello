@@ -229,7 +229,7 @@ wekan-cfs-upload-http@0.0.21
 wekan-cfs-worker@0.1.5
 wekan-chuangbo-cookie@1.1.0
 wekan-kenton-accounts-sandstorm@0.7.0
-wekan-lamhieu-meteorx@2.1.1
+wekan-montiapm-meteorx@2.2.0
 wekan-lamhieu-unblock@1.0.0
 wekan-ldap@0.0.2
 wekan-markdown@1.0.9

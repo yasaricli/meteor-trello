@@ -18,7 +18,7 @@ Package.onUse(function (api) {
 	api.use('wekan-staringatlights-inject-data@2.3.0', ['client', 'server'])
 	api.use('wekan-chuangbo-cookie@1.1.0', 'client')
 	api.use('wekan-meteorhacks-picker@1.0.3', 'server')
-	api.use('wekan-lamhieu-meteorx@2.0.1', 'server')
+	api.use('wekan-montiapm-meteorx@2.2.0', 'server')
 
 	api.use(
 		[

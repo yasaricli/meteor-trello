@@ -17,6 +17,6 @@ Package.onTest(function(api) {
 
 function configurePackages(api) {
   api.versionsFrom("METEOR@1.0");
-  api.use("wekan-lamhieu-meteorx@2.1.1");
+  api.use("wekan-montiapm-meteorx@2.1.1");
   api.addFiles("src/unblock.js", "server");
 }
