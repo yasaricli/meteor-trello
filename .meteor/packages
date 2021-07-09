@@ -142,7 +142,6 @@ easylogic:summernote
 pascoual:pdfkit
 wekan-accounts-lockout
 lmieulet:meteor-coverage
-meteortesting:mocha
 wekan-kenton-accounts-sandstorm@0.7.0!
 communitypackages:fast-render
 jquery

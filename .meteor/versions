@@ -80,9 +80,6 @@ meteorhacks:collection-utils@1.2.0
 meteorhacks:picker@1.0.3
 meteorhacks:subs-manager@1.6.4
 meteorspark:util@0.2.0
-meteortesting:browser-tests@1.3.4
-meteortesting:mocha@2.0.2
-meteortesting:mocha-core@8.0.1
 minifier-css@1.5.4
 minifier-js@2.6.0
 minifiers@1.1.8-faster-rebuild.0
@@ -105,7 +102,6 @@ mquandalle:jade@0.4.9
 mquandalle:jade-compiler@0.4.5
 mquandalle:jquery-textcomplete@0.8.0_1
 mquandalle:jquery-ui-drag-drop-sort@0.2.0
-wekan-mquandalle-moment@1.0.1
 mquandalle:mousetrap-bindglobal@0.0.1
 msavin:usercache@1.8.0
 npm-mongo@3.9.0
@@ -238,6 +234,7 @@ wekan-ldap@0.0.2
 wekan-markdown@1.0.9
 wekan-meteorhacks-picker@1.0.4
 wekan-montiapm-meteorx@2.2.0
+wekan-mquandalle-moment@1.0.1
 wekan-oidc@1.0.12
 wekan-simple-authenticate-user-by-token@1.0.1
 wekan-simple-json-routes@2.1.0

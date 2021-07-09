@@ -2,7 +2,7 @@
 'use strict';
 
 var packageName = 'wekan-mquandalle-moment';
-var packageJson = JSON.parse(Npm.require("fs").readFileSync('component.json'));
+var packageJson = JSON.parse(Npm.require("fs").readFileSync('packages/wekan-mquandalle-moment/component.json'));
 
 Package.describe({
   name: packageName,
@@ -30,9 +30,11 @@ Package.onUse(function (api) {
   api.use('wekan-tap-i18n@1.8.1', 'client');
 });
 
+/*
 Package.onTest(function (api) {
   api.use(packageName);
   api.use('tinytest');
 
   api.addFiles('meteor/test.js');
 });
+*/
