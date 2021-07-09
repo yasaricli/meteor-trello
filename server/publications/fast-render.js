@@ -1,4 +1,4 @@
-import { FastRender } from 'meteor/wekan-staringatlights-fast-render';
+import { FastRender } from 'meteor/communitypackages:fast-render';
 
 FastRender.onAllRoutes(function() {
   this.subscribe('boards');
