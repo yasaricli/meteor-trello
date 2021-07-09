@@ -80,12 +80,14 @@ do
 		#sudo chown -R $(id -u):$(id -g) $HOME/.npm $HOME/.meteor
 		rm -rf node_modules .meteor/local .build
                 chmod u+w *.json
+		#pnpm install regenerator-runtime escape-string-regexp detect-libc moment
 		npm install
 		meteor build .build --directory
 		rm -rf .build/bundle/programs/web.browser.legacy
 		cd .build/bundle/programs/server
 		rm -rf node_modules
                 chmod u+w *.json
+		#pnpm install regenerator-runtime escape-string-regexp detect-libc moment
 		npm install
 		cd ../../../..
 		# Cleanup

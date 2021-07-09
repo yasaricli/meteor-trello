@@ -24,7 +24,7 @@ Package.onUse(function(api) {
     'check',
     'ddp',
     'mongo',
-    'http',
+    'http@2.0.0',
     'wekan-cfs-data-man@0.0.6',
     'raix:eventemitter@0.1.1'
   ]);
@@ -44,7 +44,7 @@ Package.onTest(function (api) {
     'wekan-cfs-standard-packages@0.0.0',
     'wekan-cfs-gridfs@0.0.0',
     'tinytest@1.0.0',
-    'http@1.0.0',
+    'http@2.0.0',
     'test-helpers@1.0.0',
     'wekan-cfs-http-methods@0.0.29'
   ]);

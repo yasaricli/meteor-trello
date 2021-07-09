@@ -9,13 +9,13 @@ Package.onUse(function(api) {
   api.versionsFrom('METEOR@1.3.5.1');
   api.use('routepolicy', 'server');
   api.use('webapp', 'server');
-  api.use('accounts-base', ['client', 'server']);
+  api.use('accounts-base@2.0.0', ['client', 'server']);
   // Export Accounts (etc) to packages using this one.
-  api.imply('accounts-base', ['client', 'server']);
+  api.imply('accounts-base@2.0.0', ['client', 'server']);
   api.use('underscore');
-  api.add_files('cas_client.js', 'web.browser');
-  api.add_files('cas_client_cordova.js', 'web.cordova');
-  api.add_files('cas_server.js', 'server');
+  api.addFiles('cas_client.js', 'web.browser');
+  api.addFiles('cas_client_cordova.js', 'web.cordova');
+  api.addFiles('cas_server.js', 'server');
 
 });
 

@@ -391,7 +391,7 @@
       # Wait spinner to use
       #export WAIT_SPINNER=Bounce
       #---------------------------------------------------------------------
-      node main.js
+      node --trace-warnings main.js
       # & >> ../../wekan.log
       cd ../..
 #done

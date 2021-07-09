@@ -1,0 +1,18 @@
+{
+  "extends": "../../.jshintrc",
+  "globals": {
+
+  },
+  "predef": [
+    "Accounts",
+    "check",
+    "HTTP",
+    "JsonRoutes",
+    "Match",
+    "Meteor",
+    "Package",
+    "testAsyncMulti",
+    "RestMiddleware",
+    "_"
+  ]
+}

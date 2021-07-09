@@ -19,8 +19,8 @@ Package.onUse(function(api) {
 	api.use('sha');
 	api.use('templating', 'client');
 
-	api.use('accounts-base', 'server');
-	api.use('accounts-password', 'server');
+	api.use('accounts-base@2.0.0', 'server');
+	api.use('accounts-password@2.0.0', 'server');
 	api.use('percolate:synced-cron', 'server');
 	api.addFiles('client/loginHelper.js', 'client');
 

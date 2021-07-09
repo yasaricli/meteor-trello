@@ -10,7 +10,7 @@ Package.onUse(function(api) {
 
   api.use(['webapp', 'underscore', 'ejson'], 'server');
 
-  api.use('http', { weak: true });
+  api.use('http@2.0.0', { weak: true });
 
   api.export && api.export('HTTP');
 

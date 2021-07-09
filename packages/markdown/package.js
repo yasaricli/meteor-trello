@@ -18,5 +18,5 @@ Package.onUse(function (api) {
 
   api.use('ui', 'client', {weak: true});
 
-	api.add_files('src/template-integration.js', 'client');
+	api.addFiles('src/template-integration.js', 'client');
 });

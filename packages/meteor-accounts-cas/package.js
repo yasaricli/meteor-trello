@@ -13,9 +13,9 @@ Package.onUse(function(api) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('underscore');
-  api.add_files('cas_client.js', 'web.browser');
-  api.add_files('cas_client_cordova.js', 'web.cordova');
-  api.add_files('cas_server.js', 'server');
+  api.addFiles('cas_client.js', 'web.browser');
+  api.addFiles('cas_client_cordova.js', 'web.cordova');
+  api.addFiles('cas_server.js', 'server');
 
 });
 

@@ -51,7 +51,7 @@ Package.onTest(function (api) {
     'wekan-cfs-gridfs@0.0.0',
     //Core packages
     'test-helpers',
-    'http',
+    'http@2.0.0',
     'tinytest',
     'underscore',
     'ejson',
